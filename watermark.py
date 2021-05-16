@@ -32,7 +32,7 @@ def watermark_img(orgnl_file, watermark, pos, output_file):
                 elif pos == 4:
                     position = (0,pic_y-logo.size[1]) #bottom left
                 else:
-                    positin = (pic_x//2, pic_y//2) #center
+                    position = (pic_x//2, pic_y//2) #center
                     
                 pic.paste(logo, position, mask=logo)
 #                 pic.show()
