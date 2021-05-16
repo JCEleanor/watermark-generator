@@ -21,7 +21,7 @@ def watermark_img(orgnl_file, watermark, pos, output_file):
                 if pic_x > pic_y:     
                     logo.thumbnail((pic_x//10,pic_y//10)) #resize according to width
                 else:
-                    logo.thumbnail((pic_y//10,pic_x//10)) #resize according to highth
+                    logo.thumbnail((pic_y//10,pic_x//10)) #resize according to height
                     
                 if pos == 1:
                     position = (0,0) #upper left
