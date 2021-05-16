@@ -50,7 +50,7 @@ Pillow:
 
 - Profile
 
-![example](example_output/IMG_221.jpg)
+![example](example_output/IMG_221.JPG)
 
 - Square
 
