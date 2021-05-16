@@ -10,20 +10,26 @@ The program will first shrink the watermark 10x based on the input image's orien
 
 The math for each position is as below: 
 
+<br>
 1. upper left 
-`watermark_position = (0, 0)`
+        
+    watermark_position = (0, 0)
 <br>
 2. upper right 
-`watermark_position = (input_width - logo_width, 0)`
+       
+    watermark_position = (input_width - logo_width, 0)
 <br>
 3. bottom right
-`watermark_position = (input_width - logo_width, input_height - logo_height)`
+        
+    watermark_position = (input_width - logo_width, input_height - logo_height)
 <br>
 4. bottom left
-`watermark_position = (0, input_height - logo_height)`
+        
+    watermark_position = (0, input_height - logo_height)
 <br>
 5. center
-`watermark_position = (input_width // 2, input_height // 2)`
+        
+    watermark_position = (input_width // 2, input_height // 2)
 
 
 According to Cartesian pixel coordinate system, the origin (0, 0), is at the top left cornor, while the center of the watermark will actually be at (0.5, 0.5). 
