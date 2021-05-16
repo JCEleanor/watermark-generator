@@ -1,5 +1,5 @@
 # Watermark-Generator
----
+
 
 ## Overview
 A watermark generator built with Python and Pillow, which allows users to add watermark in the following positions:
